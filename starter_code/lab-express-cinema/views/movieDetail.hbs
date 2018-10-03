@@ -1,0 +1,25 @@
+<div class=“random-container”>
+
+    {{#with movie}}
+        <div class=“random-img”>
+            <img src="{{image}}">
+        </div>
+
+        <div class=“random-info”>
+            <h1>{{title}}</h1>
+            <p class=“tagline”>Director: {{director}}</p>
+            <ul>
+                <h2>stars</h2>
+                {{#each stars as |star|}}
+                    <li class=“foods”>{{star}}</li>
+                {{/each}}
+            </ul>
+            <p class=“description”>{{description}}</p>
+            <ul>
+                {{#each showtimes as |time|}}
+                    <li class=“foods”>{{time}}</li>
+                {{/each}}
+            </ul>
+        </div>
+    {{/with}}
+</div>

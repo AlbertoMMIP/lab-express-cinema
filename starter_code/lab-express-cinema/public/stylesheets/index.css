@@ -1,0 +1,24 @@
+.index-container{
+    background: center / cover no-repeat url("../images/cinema.jpg") #00B7FF;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+.index-container h1{
+    color: #fff;
+    font-size: 10em;
+    margin-bottom: 3vh;
+}
+
+.index-container a{
+    text-decoration: none;
+    color: lightblue;
+    border-radius: 10vw;
+    background: #ffffff;
+    box-shadow:  0.3vw 0.2vh darkblue;
+    font-size: 3em;
+    padding: 1.5vh 3vw;
+}
